@@ -30,3 +30,12 @@ The tool runs silently on closed ports to keep the console clean and outputs thr
 ```bash
 python main.py
 ```
+## Execution via Docker (Containerized Deployment)
+
+To build and run this infrastructure scanner inside a completely isolated, dependency-free Linux container environment:
+
+1. Build the immutable software container image:
+   docker build -t aegis-auditor .
+
+2. Execute the containerized application natively:
+   docker run -it aegis-auditor
