@@ -28,5 +28,5 @@ The tool runs silently on closed ports to keep the console clean and outputs thr
 
 ## How to Replicate and Execute
 ```bash
-python basic_practice.py
+python main.py
 ```
